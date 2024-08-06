@@ -1,6 +1,10 @@
 const App = () => {
 	return (
-		<main></main>
+		<main className={"bg-black"}>
+			Navbar
+			Hero
+			Highlights
+		</main>
 	)
 }
 
