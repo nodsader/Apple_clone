@@ -2,7 +2,8 @@ import NavBar from "./components/NavBar.jsx";
 import Hero from "./components/Hero.jsx";
 import Highlights from "./components/Highlights.jsx";
 import Model from "./components/Model.jsx";
-import {Features} from "./components/Features.jsx";
+import {Works} from "./components/Works.jsx";
+import Features from "./components/Features.jsx";
 
 const App = () => {
 	return (
@@ -12,6 +13,7 @@ const App = () => {
 			<Highlights/>
 			<Model/>
 			<Features/>
+			<Works/>
 		</main>
 	)
 }
