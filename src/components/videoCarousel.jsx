@@ -35,17 +35,17 @@ const VideoCarousel = () => {
         gsap.to('#video', {
             scrollTrigger: {
                 trigger: '#video',
-                toggleActions: 'restart none none none'
+                toggleActions: 'restart none none none',
             },
             onComplete: () => {
                 setVideo((pre) => ({
                     ...pre,
                     startPlay: true,
                     isPlaying: true,
-                }))
-            }
-        })
-    }, [isEnd, videoId])
+                }));
+            },
+        });
+    }, [isEnd, videoId]);
 
     useEffect(() => {
         if(loadedData.length > 3) {

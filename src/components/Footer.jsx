@@ -16,7 +16,7 @@ export const Footer = () => {
                         near you.
                     </p>
                     <p className={"font-semibold text-gray text-xs"}>
-                        Or call 000800-040-1966
+                        Si vous êtes madame Pascale appelez le 000800-040-1966
                     </p>
                 </div>
                 <div className={"bg-neutral-700 my-5 h-[1px] w-full"}/>
